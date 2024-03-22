@@ -1,21 +1,29 @@
 # Projeto MongoDB com Spring Boot
 
-## Descrição
+Este é um projeto Spring Boot Java que apresenta a integração entre o MongoDB e o Spring Boot para construir um serviço web baseado em API REST. 
 
-Este projeto visa demonstrar a integração entre o MongoDB e o Spring Boot, fornecendo um serviço web que implementa uma API REST para operações CRUD (Create, Read, Update, Delete) em um banco de dados orientado a documentos.
+## Objetivo Geral
 
-## Funcionalidades Principais
+O objetivo principal deste projeto é explorar e demonstrar as seguintes funcionalidades:
 
-- **CRUD Operations**: Implementação de operações de criação, leitura, atualização e exclusão de documentos no MongoDB através de endpoints REST.
-- **Objetos Aninhados**: Demonstração de como armazenar e manipular objetos aninhados em documentos MongoDB.
-- **Referências**: Exemplificação do uso de referências para estabelecer relacionamentos entre objetos em um banco de dados orientado a documentos.
-- **Consulta com Spring Data e MongoRepository**: Utilização do Spring Data e MongoRepository para realizar consultas avançadas no MongoDB de forma eficiente.
+- Implementar operações de CRUD (Create, Read, Update, Delete) utilizando o MongoDB e o Spring Boot.
+- Implementar associações entre objetos, incluindo objetos aninhados e referências.
+- Realizar consultas avançadas utilizando o Spring Data e MongoRepository.
+
+## Estrutura do Projeto
+
+O projeto está estruturado da seguinte forma:
+
+- **Model**: Contém as entidades e objetos de domínio da aplicação.
+- **Repository**: Camada responsável pelo acesso e manipulação dos dados no banco de dados MongoDB.
+- **Service**: Implementa a lógica de negócio da aplicação.
+- **Controller**: Define os endpoints da API REST.
+- **Exception**: Tratamento de exceções personalizado.
 
 ## Tecnologias Utilizadas
 
-- **Spring Boot**: Framework para criação de aplicativos Java baseados em Spring.
-- **MongoDB**: Banco de dados NoSQL orientado a documentos.
-- **Spring Data MongoDB**: Componente do Spring que fornece integração com o MongoDB.
-- **Java**: Linguagem de programação utilizada para o desenvolvimento do backend.
-- **RESTful API**: Arquitetura utilizada para construir APIs web.
-- **Maven**: Ferramenta de automação de compilação e gerenciamento de dependências.
+- Spring Boot
+- MongoDB
+- Spring Data MongoDB
+- Java
+- Maven
